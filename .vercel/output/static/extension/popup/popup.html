@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>IronClad</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header class="top">
+      <img src="../icons/icon48.png" width="36" height="36" alt="" />
+      <div>
+        <p class="eyebrow">IronClad</p>
+        <h1>Ad Blocker</h1>
+      </div>
+      <button id="power" class="switch" role="switch" aria-checked="true" aria-label="Protection" type="button"><i></i></button>
+    </header>
+    <p id="state" class="quiet">Blocking this tab</p>
+    <p id="count" class="count" data-n="0">0</p>
+    <p class="quiet">blocked on this tab</p>
+    <button id="zapper" class="btn" type="button">Zapper — hide an element</button>
+    <section>
+      <p class="eyebrow">Saved elements</p>
+      <div id="rules"></div>
+    </section>
+    <p class="fine">Right-click a page and choose IronClad Zapper. The badge pulses as trackers are blocked.</p>
+    <script src="popup.js"></script>
+  </body>
+</html>

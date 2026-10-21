@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "IronClad",
+      "hasCanvas": false,
+      "bodyTextLen": 759,
+      "bodyTextHash": "c8ccd1a48d057df4abacddb56b50f388a65cdcd9a44353ac3f631183392804b0",
+      "bodyTextPrefix": "IRONCLAD Liquid glass protection Software Extension IronClad Des",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "IronClad",
+      "hasCanvas": false,
+      "bodyTextLen": 742,
+      "bodyTextHash": "7960f2fd3e3c87998772956e247d77bd12815622944784849e2a24db1f5fa8fe",
+      "bodyTextPrefix": "IRONCLAD Liquid glass protection Software Extension Overview Ale",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

@@ -1,0 +1,100 @@
+:root {
+  color-scheme: dark;
+  --ink: #071018;
+  --frost: #f4f7fb;
+  --mist: #9aa6b4;
+  --teal: #2ee6c7;
+  --coral: #ff5a4f;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  width: 340px;
+  padding: 14px;
+  color: var(--frost);
+  font: 500 14px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background:
+    radial-gradient(280px 160px at 0% 0%, rgba(46, 230, 199, 0.35), transparent 70%),
+    radial-gradient(220px 180px at 100% 100%, rgba(255, 90, 79, 0.18), transparent 70%),
+    #10182a;
+}
+button { font: inherit; cursor: pointer; }
+.top { display: flex; align-items: center; gap: 10px; }
+.top img { border-radius: 10px; }
+.eyebrow {
+  margin: 0;
+  color: var(--mist);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+h1 { margin: 0; font-size: 18px; letter-spacing: -0.03em; }
+.quiet { margin: 6px 0; color: var(--mist); }
+.fine { margin: 12px 0 0; color: var(--mist); font-size: 12px; }
+.count {
+  margin: 8px 0 0;
+  font-size: 42px;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  font-variant-numeric: tabular-nums;
+  font-weight: 650;
+}
+.count.pop { animation: pop 0.62s cubic-bezier(0.2, 0.8, 0.2, 1); }
+@keyframes pop {
+  40% { transform: scale(1.08); }
+}
+.btn {
+  width: 100%;
+  min-height: 44px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--teal);
+  color: var(--ink);
+  font-weight: 700;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.55);
+}
+.switch {
+  margin-left: auto;
+  width: 52px;
+  height: 32px;
+  border: 0;
+  border-radius: 999px;
+  position: relative;
+  background: rgba(255, 255, 255, 0.16);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.18);
+}
+.switch[aria-checked="true"] { background: var(--teal); }
+.switch i {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: white;
+  transition: transform 180ms ease;
+}
+.switch[aria-checked="true"] i { transform: translateX(20px); }
+.rule {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 8px 0;
+  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.08);
+}
+.rule span {
+  overflow-wrap: anywhere;
+  font-family: ui-monospace, monospace;
+  font-size: 12px;
+}
+.rule button {
+  border: 0;
+  background: transparent;
+  color: var(--coral);
+  min-height: 44px;
+  min-width: 44px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .count.pop, .switch i { animation: none; transition: none; }
+}

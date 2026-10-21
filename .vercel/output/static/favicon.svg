@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="IronClad">
+  <rect width="32" height="32" rx="7" fill="#071018"/>
+  <path fill="#2ee6c7" d="M16 4.6 26.2 8.8v7.9c0 6.1-4.3 10.9-10.2 13.7C10.1 27.6 5.8 22.8 5.8 16.7V8.8L16 4.6z"/>
+  <path fill="#071018" d="M16 10.4 21.4 12.6v4.6c0 3.3-2.2 5.9-5.4 7.4-3.2-1.5-5.4-4.1-5.4-7.4v-4.6L16 10.4z"/>
+  <circle cx="23.6" cy="23.2" r="2.15" fill="#ff5a4f"/>
+</svg>
